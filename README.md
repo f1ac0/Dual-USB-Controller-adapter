@@ -1,6 +1,6 @@
 # Dual USB Controller adapter
 This project is an interface board to connect two USB controllers to the DB9 controller ports of an Atari ST/Amiga system.
-Supported USB devices : mouse, keyboard, Xbox 360 gamepad ; other HID controllers should also work but button placement is device dependant. Composite devices are not supported.
+Supported USB devices : mouse, keyboard, wired xbox360 and PS3 gamepad ; other HID controllers should also work but button placement is device dependant. Composite devices are not supported.
 
 This is a sequel to the USB Controller adapter project : it provides two USB ports and requires less components.
 
@@ -10,10 +10,10 @@ Working so far :
 - DB9 input to daisy chain an Atari controller
 - self-power or external power
 - gamepad support
-  - Wired Xbox 360 gamepad and HID gamepad support.
+  - Wired Xbox 360 gamepad, PS3 gamepad and HID gamepad support.
   - CD32 buttons
   - Autofire on right trigger
-  - 5 switchable modes on Xbox 360 gamepad
+  - 5 switchable modes on Xbox 360 and PS3 gamepad
 - keyboard support
   - single USB keyboard to replace two gamepads, but you can also use two keyboards
 - mouse support
@@ -88,7 +88,7 @@ Supports USB keyboard in boot mode, and emulates at the same time two controller
 - Mouse on preferred port : Arrows + Space or left Alt + Enter or Y
 - Mouse on other port : Arrows + keypad 0 or 1 + Enter or '+'
 
-## Xbox 360 gamepad
+## Xbox 360 and PS3 gamepad
 Supports wired USB original and clones, and emulates a CD32 pad, a mouse, or dual pads depending on the active mode.
 
 The round button and its leds are used as a mode selector : press the round button to change mode.
